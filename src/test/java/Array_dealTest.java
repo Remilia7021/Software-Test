@@ -1,5 +1,4 @@
 import static org.junit.Assert.*;
-import org.apache.commons.lang3.ArrayUtils;
 import org.junit.Test;
 
 public class Array_dealTest {
@@ -23,7 +22,7 @@ public class Array_dealTest {
 		Array_deal TestArray_deal = new Array_deal();
 		
 		int[] Array1= {1, 2, 3};
-		int[] Array2= {1, 50, 500};
+		int[] Array2= {1, 155, 500};
 		
 		boolean Testans1 = TestArray_deal.find_num_500(Array1);
 		boolean Testans2 = TestArray_deal.find_num_500(Array2);
